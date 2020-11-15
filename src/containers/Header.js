@@ -28,7 +28,7 @@ class Header extends Component {
         <StyleToolbar position="static" color="primary">
           <Toolbar className="toolbar">
             <Typography variant="title" color="inherit">
-              Snake
+              Snake Snatcher
             </Typography>
             <LiveScore
               currentScore={game.currentScore}
@@ -50,7 +50,7 @@ function mapStateToProps(state) {
   return {
     themes: state.app.themes,
     themeName: state.app.themeName,
-    game: state.game
+    game: state.game,
   };
 }
 

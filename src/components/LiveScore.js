@@ -11,7 +11,7 @@ const StyleDiv = styled.div`
 
 const LiveScore = ({ currentScore, highScore }) => (
   <StyleDiv>
-    Score/high : {currentScore}/{highScore}
+    Score/High : {currentScore}/{highScore}
   </StyleDiv>
 );
 

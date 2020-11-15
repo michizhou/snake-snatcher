@@ -1,8 +1,7 @@
 {
-  "name": "react-snake-game",
+  "name": "snake-snatcher",
   "version": "0.1.1",
   "private": true,
-  "homepage": "http://benhurdavies.github.io/react-snake-game",
   "dependencies": {
     "@material-ui/core": "^1.2.1",
     "@material-ui/icons": "^1.1.0",
